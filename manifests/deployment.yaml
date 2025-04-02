@@ -21,7 +21,7 @@ spec:
         - name: "my-web-app"
           image: "jjmwebappregistry.azurecr.io/sampleapp:c8548f6b72271c2ce2f8c12cd7258575f24a4473"
           ports:
-            - containerPort: 443
+            - containerPort: 3000
           env:
             - name: ENV_VAR
               value: "value"
