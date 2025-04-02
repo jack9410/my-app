@@ -4,6 +4,7 @@ metadata:
   labels:
     app: "my-web-app"
   name: "my-web-app"
+  namespace: my-web-app
 spec:
   type: ClusterIP
   ports:
